@@ -3,3 +3,4 @@ Gruntfile.js
 vendor
 package.json
 var
+.sass-cache
