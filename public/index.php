@@ -5,9 +5,9 @@ require '../vendor/autoload.php';
 $app = new \Slim\App([
     'settings' => [
         'addContentLengthHeader' => false,
-        'displayErrorDetails' => true,
-        'pathToCache' => false,
-        //'pathToCache' => '../var/cache',
+        'displayErrorDetails' => false,
+        //'pathToCache' => false,
+        'pathToCache' => '../var/cache',
     ]
 ]);
 
