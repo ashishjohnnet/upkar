@@ -6,8 +6,8 @@ $app = new \Slim\App([
     'settings' => [
         'addContentLengthHeader' => false,
         'displayErrorDetails' => false,
-        //'pathToCache' => false,
-        'pathToCache' => '../var/cache',
+        'pathToCache' => false,
+        //'pathToCache' => '../var/cache',
     ]
 ]);
 
